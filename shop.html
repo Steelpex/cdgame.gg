@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./image/png/logo.png" />
+    <link href="./css/shop.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Shop - CDGAME.GG</title>
+    <style>
+      @font-face {
+      font-family: BurbankSmall-Bold;
+      src: url('BurbankSmall-Bold.otf');
+    }
+
+    @font-face {
+      font-family: BurbankBigRegular-Black;
+      src: url('BurbankBigRegular-Black.otf');
+    }
+
+    body{
+      overflow: overlay;
+      padding: 14px;
+    }
+
+    .btn{
+      font-family: BurbankSmall-Bold;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .cdgame {
+      color: white;
+      padding-left: 32%;
+    }
+
+    .test {
+      color: white;
+    }
+
+    .cdgame:hover {
+    color: rgb(255, 251, 19);
+    }
+    
+    .test:hover {
+    color:rgb(255, 251, 19);
+    }
+
+    span {
+      color: white;
+      font-family: BurbankBigRegular-Black;
+      font-style: italic;
+      font-size: 35px;
+    }
+
+    .ongletsboutique1 {
+      padding-top: 15px;
+      padding-left: 10%;
+    }
+
+    .ongletsboutique2 {
+      padding-top: 15px;
+    }
+
+    .ongletsboutique99 {
+      padding-top: 10px;
+    }
+
+    .ongletsboutique3 {
+      padding-top: 15px;
+    }
+
+    .objets1 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 750px;
+    }
+
+    .objets99 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 370px;
+    }
+
+    .objets55 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 750px;
+    }
+
+    .objets2 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 370px;
+    }
+
+    .objets858 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 750px;
+    }
+
+    .objets3 {
+      display: flex;
+      justify-content: space-between;
+      max-width: 560px;
+    }
+
+    .card {
+      width: 180px;
+      height: 180px;
+      background: url("image/12.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card2 {
+      width: 180px;
+      height: 180px;
+      background: url("image/13.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card2:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card3 {
+      width: 180px;
+      height: 180px;
+      background: url("image/15.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card3:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card4 {
+      width: 180px;
+      height: 180px;
+      background: url("image/10.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card4:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card5 {
+      width: 180px;
+      height: 180px;
+      background: url("image/14.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card5:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card15 {
+      width: 180px;
+      height: 180px;
+      background: url("image/10.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card15:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card16 {
+      width: 180px;
+      height: 180px;
+      background: url("image/11.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card16:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card17 {
+      width: 180px;
+      height: 180px;
+      background: url("image/14.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card17:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card18 {
+      width: 180px;
+      height: 180px;
+      background: url("image/14.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card18:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card103 {
+      width: 180px;
+      height: 180px;
+      background: url("image/16.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card103:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card103 {
+      width: 180px;
+      height: 180px;
+      background: url("image/16.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card103:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card104 {
+      width: 180px;
+      height: 180px;
+      background: url("image/26.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card104:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card105 {
+      width: 180px;
+      height: 180px;
+      background: url("image/17.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card105:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card106 {
+      width: 180px;
+      height: 180px;
+      background: url("image/18.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card106:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card206 {
+      width: 180px;
+      height: 180px;
+      background: url("image/18.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card206:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card207 {
+      width: 180px;
+      height: 180px;
+      background: url("image/23.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card207:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card208 {
+      width: 180px;
+      height: 180px;
+      background: url("image/24.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card208:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card209 {
+      width: 180px;
+      height: 180px;
+      background: url("image/19.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card209:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+    .card110 {
+      width: 180px;
+      height: 180px;
+      background: url("image/25.png") no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .card110:hover {
+      background-size: cover;
+      outline: solid yellow;
+    }
+
+
+    </style>
+<body style="background-color:#13202A;">
+  <div class="onlgets">
+    <a href="index.html" class="btn cdgame">CDGAME.GG</a>
+    <a class="btn test">TEST</a>
+    <a href="missions.html" class="btn test">MISSIONS</a>
+    <a href="patch notes.html" class="btn test">PATCH NOTES</a>
+</body>
+<body>
+  <div class="ongletsboutique1">
+  <span style="color:#ffffff">RECOMMANDER </span>
+  <span style="color:#707b84">• 6</span>
+  <div class="objets1">
+  <div class="card"></div>
+  <div class="card2"></div>
+  <div class="card5"></div>
+  <div class="card3"></div>
+</div>
+  <div class="ongletsboutique99">
+  <div class="objets99">
+  <div class="card15"></div>
+  <div class="card16"></div>
+</div>
+</div>
+  <div class="ongletsboutique2">
+  <span style="color:#ffffff">PACKS </span>
+  <span style="color:#707b84">• 4</span>
+  <div class="objets858">
+    <div class="card110"></div>
+    <div class="card104"></div>
+    <div class="card105"></div>
+    <div class="card206"></div>
+  </div>
+  <div class="ongletsboutique2">
+  <span style="color:#ffffff">BOÎTE CADEAU </span>
+  <span style="color:#707b84">• {NONE}</span>
+  <div class="objets2">
+  </div>
+  </div>
+  <div class="ongletsboutique3">
+  <span style="color:#ffffff">APPARENCE </span>
+  <span style="color:#707b84">• 3</span>
+  <div class="objets3">
+  <div class="card103"></div>
+  <div class="card208"></div>
+  <div class="card209"></div>
+  </div>
+</div>
+</body>
+  </div>
+</body>
+</body>
+  </head>
+</html>
